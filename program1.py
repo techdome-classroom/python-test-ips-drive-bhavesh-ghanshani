@@ -21,4 +21,4 @@ def smallest_missing_positive_integer(nums: List[int]) -> int:
     for i in range(1, max_num + 2):
         if i not in nums:
             return i
-        
+        #program completed
